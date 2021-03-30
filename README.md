@@ -16,19 +16,16 @@ Design: [Docland](https://themelooks.org/demo/docland/html/home-course.html)
 ## Project features
 
 -   Github pages
--   multipages
+-   multi-pages
 -   carousel
--   fontawesome icons 
 -   localStorage
+-   content rendering with JS
 -   lightbox
 -   scroll event
 -   js import -export
 -   css import
--   Node.js
 -   responsive design
--   repetitive content is generated/rendered;
 -   css animations
--   form validations
 
 ## Authors
 
