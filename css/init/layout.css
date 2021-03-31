@@ -26,13 +26,15 @@
     --ml9: calc(var(--ml8) + var(--cg));
     --ml10: calc(var(--ml9) + var(--cg));
     --ml11: calc(var(--ml10) + var(--cg));
+  
+    --container-padding: 40px;
   }
   
   .container,
   .container-fluid {
     display: inline-block;
     width: 100%;
-    padding: 20px;
+    padding: var(--container-padding) 10px;
   }
   .container > .row,
   .container-fluid > .row {
@@ -211,6 +213,7 @@
   @media (min-width: 767px) {
     :root {
       --half-gap: 15px;
+      --container-padding: 50px;
     }
     .container > .row {
       width: 720px;
@@ -297,6 +300,9 @@
   }
   
   @media (min-width: 991px) {
+    :root {
+      --container-padding: 60px;
+    }
     .container > .row {
       width: 960px;
       margin-left: calc(50% - 480px);
@@ -384,6 +390,7 @@
   @media (min-width: 1199px) {
     :root {
       --half-gap: 20px;
+      --container-padding: 70px;
     }
     .container > .row {
       width: 1140px;
@@ -470,6 +477,9 @@
   }
   
   @media (min-width: 1399px) {
+    :root {
+      --container-padding: 80px;
+    }
     .container > .row {
       width: 1320px;
       margin-left: calc(50% - 660px);
