@@ -1,0 +1,80 @@
+/* FONTS */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu/Ubuntu-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu/Ubuntu-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu/Ubuntu-Light.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url(../../fonts/hind/Hind-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url(../../fonts/hind/Hind-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url(../../fonts/hind/Hind-Light.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* MAIN COLORS */
+
+:root {
+    --color-primary: #ffc107;
+    --color-secondary: #20c997;
+    --color-light: #f8f9fa;
+    --color-grey: #5c6b56;
+    --color-black: #292929;
+}
+
+/* TEXT STYLE */
+
+.align-left{
+    text-align: left;
+}
+
+.title {
+    display:inline-block;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.3;
+    color: var(--color-black);
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.paragraph {
+    display:inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+}
