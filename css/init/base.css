@@ -79,11 +79,11 @@
 .title1 {
     display:inline-block;
     width: 100%;
-    font-size: 60px;
+    font-size: 59px;
     line-height: 1.2;
     color: var(--color-black);
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .title2 {
@@ -141,7 +141,7 @@
 
 .bottom-text-link {
     text-align: left;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 20 px;
     color: var(--color-black);
     font-weight: 300;
