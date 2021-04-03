@@ -54,6 +54,14 @@
     left: 240px;
     width: 60%;
 }
+/* align left */
+
+.row-marginleftright-0 > [class*='col-'] {
+    float: left;
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+
 /* hero end */
 
 /* row with counters */
