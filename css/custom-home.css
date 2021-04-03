@@ -9,10 +9,53 @@
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/button.css';
+@import './components/star-rating.css';
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* header */
-/* hero */
+
+/* hero start */
+/* background */
+.hero-bg {
+    background: linear-gradient(0deg, var(--color-light) 0%,var(--color-secondary-very-light) 70%,var(--color-light) 100%);}
+/* IMAGE STYLE */
+.hero-img-parent {
+    display: inline-block;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: -50px;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-img-parent > .hidden-img-hero {
+    display:none;
+}
+
+.hero-img-main {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.hero-img-other-1 {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+}
+
+.hero-img-other-2 {
+    position:relative;
+    top: 30px;
+    left: 240px;
+    width: 60%;
+}
+/* hero end */
+
 /* row with counters */
 /* countdown clock */
 /* what you'll learn carousel */
