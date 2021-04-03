@@ -17,6 +17,19 @@
 /* countdown clock */
 /* what you'll learn carousel */
 /* course syllabus */
+
+.syllabus-meta-row {
+    margin-top: 6px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+.syllabus-meta-row .meta-text {
+    text-align: left;
+    font-size: 18px;
+    color: var(--color-black);
+    margin-right: 40px;
+    font-weight: 500;
+}
 /* course benefits */
 /* pricing */
 /* student reviews */
