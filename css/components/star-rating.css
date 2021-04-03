@@ -1,0 +1,19 @@
+.star-style {
+    display: inline-block;
+    float:left;
+    color:var(--color-primary);
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.star-text {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-grey);
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+
+}
