@@ -114,7 +114,7 @@
     color: var(--color-grey);
     font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
 }
 
 .author {
@@ -145,7 +145,8 @@
     line-height: 20 px;
     color: var(--color-black);
     font-weight: 300;
-    padding: 15px;
+    padding: 15px 0px;
+    width: 100%;
 }
 
 .bottom-text-link > a {
