@@ -17,7 +17,26 @@
 /* countdown clock */
 /* what you'll learn carousel */
 /* course syllabus */
-
+.syllabus + div {
+    margin: -10px, 0;
+}
+.syllabus .week-container {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 40px, 0;
+}
+.syllabus .btn, .syllabus .btn:visited {
+    color: var(--color-black);
+    border: 1px solid var(--color-secondary);
+    outline: 0;
+    background-color: transparent;
+} 
+.syllabus .btn:hover {
+    color: #fff;
+    border: none; 
+    background-color: var(--color-secondary);
+} 
 .syllabus-meta-row {
     margin-top: 6px;
     padding-bottom: 30px;
