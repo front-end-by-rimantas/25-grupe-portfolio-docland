@@ -17,10 +17,11 @@
 /* countdown clock */
 /* what you'll learn carousel */
 /* course syllabus */
+
 .syllabus + div {
     margin: -10px, 0;
 }
-.syllabus .week-container {
+.syllabus .accordion-tab {
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -48,6 +49,20 @@
     color: var(--color-black);
     margin-right: 40px;
     font-weight: 500;
+}
+.syllabus .accordion-content {
+    font-size: 18px;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    color: var(--color-grey);
+}
+.accordion-content .fa-play-circle-o {
+    margin-right: 20px;
+    color: var(--color-secondary);
+}
+.accordion-content a {
+    text-decoration: none;
+    color: var(--color-black);
 }
 /* course benefits */
 /* pricing */
