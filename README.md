@@ -9,7 +9,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at https://github.com/front-end-by-rimantas/25-grupe-portfolio-docland
+Site published at https://front-end-by-rimantas.github.io/25-grupe-portfolio-docland/
 
 Design: [Docland](https://themelooks.org/demo/docland/html/home-course.html)
 
