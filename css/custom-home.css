@@ -73,8 +73,9 @@
 
 /* pricing */
 /* *** custom title style *** */
-.pricing-title-style {
+.pricing h2 {
     margin-bottom: 40px;
+    text-align: center;
 }
 /* *** custom button inverted style*** */
 .price-inverted-block> .btn {
