@@ -69,6 +69,9 @@
 .align-left{
     text-align: left;
 }
+.align-center{
+    text-align: center;
+}
 
 ::selection {
     text-shadow: none;
@@ -106,10 +109,21 @@
     font-weight: 700;
 }
 
-.paragraph {
+.paragraph-hero {
     display:inline-block;
     width: 100%;
     font-size: 20px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    display:inline-block;
+    width: 100%;
+    font-size: 16px;
     line-height: 1.8;
     color: var(--color-grey);
     font-weight: normal;
