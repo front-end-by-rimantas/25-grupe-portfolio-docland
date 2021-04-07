@@ -84,6 +84,7 @@
     font-size: 20px;
     line-height: 1.78;
     font-family: Ubuntu, sans-serif;
+    color: var(--color-grey);
 }
 /* countdown clock */
 /* what you'll learn carousel */
