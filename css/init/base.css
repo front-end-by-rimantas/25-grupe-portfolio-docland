@@ -59,8 +59,12 @@
     text-align: center;
 }
 
-.align-left{
+.align-left {
     text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 ::selection {
@@ -108,4 +112,9 @@
     color: var(--color-grey);
     font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.text-special {
+    font-weight: 600;
+    color: var(--color-secondary);
 }
