@@ -1,5 +1,4 @@
-.footer-container{
-
+.footer-item {
 }
 .footer-item > .footer-titles{
     line-height: 30px;
@@ -12,14 +11,25 @@
 .footer-item > .links > ul > li > a{
     text-decoration: none;
     color: var(--color-grey);
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: inline-block;
 }
+.footer-item > .links > ul > li > a:hover {
+    transition: 0.3s linear;
+    color: var(--color-secondary);
+    overflow: visible;
+    
+}
+
 .footer-item > .p-text{
     line-height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--color-grey);
 }
 .footer-item > .social-icons > a{
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 10px;
     color: var(--color-black);
 }
@@ -31,19 +41,27 @@
     margin-bottom: 20px;
 }
 .footer-item > form > .input-group {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+.input-group > input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding-left: 25px;
+    color: white;
+    margin: 0;
     background-color: var(--color-secondary);
     border-radius: 30px;
-    justify-content: center;
 }
-input {
-    margin-top: 7px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 20px;
-    border: none;
-    background-color: transparent;
-    
+.input-group > .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 15px 30px;
+    line-height: 1;
+    font-weight: 600;
+    border-radius: 30px;
 }
-
-
-
