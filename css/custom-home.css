@@ -78,7 +78,7 @@
     text-align: center;
 }
 /* *** custom button inverted style*** */
-.price-inverted-block> .btn {
+.price-inverted-block > .btn {
     background-color:#fff;
     color:var(--color-secondary);
 }
