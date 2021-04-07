@@ -75,7 +75,7 @@
     font-size: 28px;
     font-weight: 500;
     font-family: Hind, sans-serif;
-    color: #292929;
+    color: var(--color-black);
     text-transform: capitalize;
     margin-bottom: 15px;
 }
