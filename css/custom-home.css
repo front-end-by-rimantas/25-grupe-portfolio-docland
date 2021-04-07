@@ -25,7 +25,7 @@
     display: inline-block;
     width: 100%;
     position:relative;
-
+    margin-top: 50px;
 }
 
 .hero-img-parent > .hidden-img-hero {
