@@ -61,9 +61,10 @@
     position: relative;
     width: 100%;
     margin-top: 15px;
+    border: none;
     
 }
-.input-group > input {
+.footer-item > form > .input-group > input {
     width: 100%;
     height: 60px;
     border: none;
@@ -73,8 +74,10 @@
     color:white;
     background-color: #5DD9C1;
     border-radius: 30px;
+    border: none;
+    
 }
-.input-group > .button {
+.footer-item > form > .input-group > .button {
     position: absolute;
     top: 0;
     right: 0;
@@ -91,7 +94,7 @@
     user-select: none;
 
 }
-.input-group > .button:hover {
+.footer-item > form > .input-group > .button:hover {
     color:#000;
     transition: 0.3s
 }
