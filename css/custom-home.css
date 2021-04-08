@@ -9,11 +9,82 @@
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/button.css';
+@import './components/pricing-card.css';
+@import './components/star-rating.css';
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* header */
-/* hero */
+
+/* hero start */
+/* *** custom background *** */
+.hero-bg {background: linear-gradient(0deg, var(--color-light) 0%,var(--color-secondary-very-light) 70%,var(--color-light) 100%);
+    overflow: hidden;
+}
+    
+/* IMAGE STYLE */
+.hero-img-parent {
+    display: inline-block;
+    width: 100%;
+    position:relative;
+    margin-top: 50px;
+}
+
+.hero-img-parent > .hidden-img-hero {
+    display:none;
+    margin-bottom: 20px;
+}
+
+.hero-img-main {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+
+}
+
+.hero-img-other-1 {
+    position:absolute;
+    top: -70px;
+    left: -70px;
+    width: 70%;
+}
+
+.hero-img-other-2 {
+    position:absolute;
+    bottom: -70px;
+    right: 0px;
+    width: 60%;
+}
+/* *** custom align left*** */
+
+.row-marginleftright-0 > [class*='col-'] {
+    float: left;
+    margin-left: 0px; 
+    margin-right: 0px;
+}
+/* hero end */
+
 /* row with counters */
+
+.course-counter {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.course-counter > h3 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Hind, sans-serif;
+    color: var(--color-black);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.course-counter > p {
+    font-size: 20px;
+    line-height: 1.78;
+    font-family: Ubuntu, sans-serif;
+    color: var(--color-grey);
+}
 /* countdown clock */
 /* what you'll learn carousel */
 /* course syllabus */
@@ -166,7 +237,25 @@
 }
 
 /* course benefits */
+
 /* pricing */
+/* *** custom title style *** */
+.pricing h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* *** custom button inverted style*** */
+.price-inverted-block > .btn {
+    background-color:#fff;
+    color:var(--color-secondary);
+}
+.price-inverted-block  > .btn:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: background 0.5s ease-in-out;
+}
+
+
 /* student reviews */
 /* registration form */
 /* course instructors */

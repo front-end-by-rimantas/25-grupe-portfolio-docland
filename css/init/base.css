@@ -15,6 +15,13 @@
 }
 @font-face {
     font-family: 'Ubuntu';
+    src: url(../../fonts/ubuntu/Ubuntu-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ubuntu';
     src: url(../../fonts/ubuntu/Ubuntu-Light.ttf) format('truetype');
     font-weight: lighter;
     font-style: normal;
@@ -38,6 +45,13 @@
     font-family: 'Hind';
     src: url(../../fonts/hind/Hind-Bold.ttf) format('truetype');
     font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind';
+    src: url(../../fonts/hind/Hind-SemiBold.ttf) format('truetype');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -76,11 +90,11 @@
 .title1 {
     display:inline-block;
     width: 100%;
-    font-size: 60px;
+    font-size: 59px;
     line-height: 1.2;
     color: var(--color-black);
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .title2 {
@@ -104,7 +118,7 @@
     font-weight: 700;
 }
 
-.paragraph {
+.paragraph-hero {
     display:inline-block;
     width: 100%;
     font-size: 20px;
@@ -112,9 +126,62 @@
     color: var(--color-grey);
     font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
 }
 
 .text-special {
     font-weight: 600;
     color: var(--color-secondary);
+}  
+
+.paragraph {
+    display:inline-block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
 }
+
+.author {
+    display:inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.author > span {
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.8;
+    color: var(--color-secondary);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+
+}
+
+.bottom-text-link {
+    text-align: left;
+    font-size: 17px;
+    line-height: 20 px;
+    color: var(--color-black);
+    font-weight: 300;
+    padding: 15px 0px;
+    width: 100%;
+}
+
+.bottom-text-link > a {
+    color: var(--color-black);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-black);
+}
+
+/* IMG STYLE */
+
