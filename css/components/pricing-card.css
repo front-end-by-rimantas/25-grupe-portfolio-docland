@@ -1,0 +1,136 @@
+.price-card {
+    padding: 40px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #3333;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 70px;
+    color: var(--color-secondary);
+}
+.price > span {
+    font-size: 20px;
+    color: var(--color-grey);
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+    line-height: 80px;
+}
+.price-card-top-part{
+    margin-bottom: 10px;
+}
+
+.price-text {
+    display:block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
+    max-width: 320px;
+}
+
+.check-style {
+    color:var(--color-secondary);
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.check-style-text {
+    color:var(--color-black);
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+.check-style-box{
+    margin-bottom: 30px;
+}
+
+/* inverted pricing card style */
+
+.price-inverted-card{
+    padding: 40px 40px;
+    background-color: var(--color-secondary);
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #3333;
+}
+
+
+.price-inverted { /* day */
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 70px;
+    color: #fff;
+    float: left;
+    margin-right:10px;
+}
+.price-holder{
+    margin-top: 10px;
+    padding:10px;
+}
+
+/* .price-inverted > span */
+.old-price {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+    line-height: 25px;
+    margin-left: 20px;
+    display: block;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+.yearly-price {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+    line-height: 25px;
+    margin-left: 30px;
+    display: block;
+   
+}
+.price-card-top-part{
+    margin-bottom: 10px;
+}
+
+.price-inverted-text {
+    display:block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
+    max-width: 320px;
+}
+
+.check-inverted-style {
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.check-inverted-style-text {
+    color:#fff;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+.check-style-box{
+    margin-bottom: 30px;
+}

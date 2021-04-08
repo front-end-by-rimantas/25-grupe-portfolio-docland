@@ -36,6 +36,13 @@
 }
 @font-face {
     font-family: 'Hind';
+    src: url(../../fonts/hind/Hind-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hind';
     src: url(../../fonts/hind/Hind-Bold.ttf) format('truetype');
     font-weight: bold;
     font-style: normal;
@@ -66,8 +73,12 @@
     text-align: center;
 }
 
-.align-left{
+.align-left {
     text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 ::selection {
@@ -94,6 +105,7 @@
     color: var(--color-black);
     text-transform: capitalize;
     font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .title3 {
@@ -106,10 +118,26 @@
     font-weight: 700;
 }
 
-.paragraph {
+.paragraph-hero {
     display:inline-block;
     width: 100%;
     font-size: 20px;
+    line-height: 1.8;
+    color: var(--color-grey);
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 40px;
+}
+
+.text-special {
+    font-weight: 600;
+    color: var(--color-secondary);
+}  
+
+.paragraph {
+    display:inline-block;
+    width: 100%;
+    font-size: 16px;
     line-height: 1.8;
     color: var(--color-grey);
     font-weight: normal;
@@ -156,3 +184,4 @@
 }
 
 /* IMG STYLE */
+
