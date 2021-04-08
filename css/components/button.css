@@ -17,3 +17,22 @@
     background-color: var(--color-secondary);
     transition: background 0.5s ease-in-out;
 }
+
+.btn-play {
+    padding: 22px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    justify-content: center;
+  }
