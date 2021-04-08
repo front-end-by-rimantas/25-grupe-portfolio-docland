@@ -9,17 +9,18 @@
 @import './components/footer.css';
 @import './components/header.css';
 @import './components/button.css';
+@import './components/pricing-card.css';
 @import './components/star-rating.css';
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* header */
 
 /* hero start */
-/* background */
-.hero-bg {
-    background: linear-gradient(0deg, var(--color-light) 0%,var(--color-secondary-very-light) 70%,var(--color-light) 100%);
+/* *** custom background *** */
+.hero-bg {background: linear-gradient(0deg, var(--color-light) 0%,var(--color-secondary-very-light) 70%,var(--color-light) 100%);
     overflow: hidden;
 }
+    
 /* IMAGE STYLE */
 .hero-img-parent {
     display: inline-block;
@@ -53,14 +54,13 @@
     right: 0px;
     width: 60%;
 }
-/* align left */
+/* *** custom align left*** */
 
 .row-marginleftright-0 > [class*='col-'] {
     float: left;
     margin-left: 0px; 
     margin-right: 0px;
 }
-
 /* hero end */
 
 /* row with counters */
@@ -89,7 +89,25 @@
 /* what you'll learn carousel */
 /* course syllabus */
 /* course benefits */
+
 /* pricing */
+/* *** custom title style *** */
+.pricing h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* *** custom button inverted style*** */
+.price-inverted-block > .btn {
+    background-color:#fff;
+    color:var(--color-secondary);
+}
+.price-inverted-block  > .btn:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: background 0.5s ease-in-out;
+}
+
+
 /* student reviews */
 /* registration form */
 /* course instructors */
