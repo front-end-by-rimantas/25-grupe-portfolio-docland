@@ -1,0 +1,19 @@
+.header {
+    background-color: white;
+    display: inline-block;
+}
+.header a {
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.btn.btn-inverted {
+    background-color: var(--color-secondary);
+}
+
+.btn.btn-inverted:hover {
+    background-color: var(--color-primary);
+}
+
