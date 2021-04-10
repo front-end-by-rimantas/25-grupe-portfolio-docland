@@ -1,19 +1,74 @@
-.header {
+/* Style for bigger screens */
+.container.header {
     background-color: white;
-    display: inline-block;
+    display: inline-block;    
+    padding: 15px 0;
+    vertical-align: middle;
 }
-.header a {
+.container.header > .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header img {
+    vertical-align: middle;
+}
+@media (max-width: 990px) {
+    .container.header .header-menu {
+        display: none;
+    }
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-menu .nav-links a {
     color: var(--color-grey);
     text-decoration: none;
     font-size: 20px;
     line-height: 1.8;
-    font-weight: 400;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
 }
-.btn.btn-inverted {
+.header .nav-links a:hover {
+    transition: 0.3s linear;
+    color: var(--color-secondary);
+    overflow: visible;
+}
+.nav-links {
+    margin-left: auto;
+    margin-right: 26px;
+}
+.header-menu .nav-links a {
+    padding: 0 24px;
+} 
+
+@media (max-width: 1198px) {
+   .header-menu .nav-links a {
+    padding: 0 10px;
+    } 
+}
+
+.nav-links > a.home {
+    color: var(--color-secondary);
+}
+
+.header-menu .nav-buttons > a.login-btn {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 36px;
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--color-primary);
+    vertical-align: -11px;
+}
+.header .btn.btn-inverted {
     background-color: var(--color-secondary);
 }
 
-.btn.btn-inverted:hover {
+.header .btn.btn-inverted:hover {
     background-color: var(--color-primary);
 }
 
