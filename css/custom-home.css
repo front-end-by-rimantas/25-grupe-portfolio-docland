@@ -6,9 +6,10 @@
 /* 3rd party */
 @import './3rd-party/font-awesome.min.css';
 /* components */
-@import './components/footer.css';
-@import './components/header.css';
 @import './components/button.css';
+@import './components/footer.css';
+@import './components/form.css';
+@import './components/header.css';
 @import './components/pricing-card.css';
 @import './components/star-rating.css';
 
