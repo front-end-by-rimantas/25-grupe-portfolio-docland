@@ -50,7 +50,7 @@
     } 
 }
 
-.nav-links > a.home {
+.header .header-menu .nav-links > a.home {
     color: var(--color-secondary);
 }
 
