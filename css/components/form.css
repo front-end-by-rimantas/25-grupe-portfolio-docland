@@ -1,0 +1,48 @@
+.registration-form > form {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--color-secondary);
+    padding: 60px 40px;
+    border-radius:30px;
+
+
+}
+
+.registration-form > form > h2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+.registration-form > form > input {
+    display: inline-block;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #fff;
+    background-color: var(--color-secondary);
+    margin-left: 40px;
+    margin-right: 10px;
+    border:none;
+    border-bottom: 1px solid #fff;
+}
+
+.registration-form > form > input::placeholder {
+    color: #fff;
+}
+
+.registration-form > form > a {
+    color: #fff;
+    right: 5px;
+    height: auto;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .3s linear;
+}
+
+.registration-form > form > a:hover {
+    color: var(--color-primary);
+}
