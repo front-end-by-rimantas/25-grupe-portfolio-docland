@@ -8,9 +8,27 @@ class Carousel {
     }
     init() {
         //patikrinti, ar validus selectorius, jei taip, issisaugoti kur jo vieta (DOM kintamajame)
+        if (!this.isValidSelector()) {
+            return 'The selector is invalid';
+        }
         //patikrinti, ar validus imgPath, jei mums jo reikes
+        if (!this.isValidImgPath()) {
+            return 'The provided image path is invalid';
+        }
         //patikrinti, ar validus list
+        if (!this.isValidList ()) {
+            return 'Provided list has invalid components';
+        }
         //render with JS
+    }
+    isValidSelector () {
+
+    }
+    isValidImgPath () {
+
+    }
+    isValidList () {
+
     }
 }
 
