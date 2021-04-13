@@ -87,7 +87,12 @@
     color: var(--color-grey);
 }
 /* countdown clock */
+
 /* what you'll learn carousel */
+.what-learn > .row {
+    position: relative;
+}
+
 /* course syllabus */
 
 .syllabus .accordion-tab {

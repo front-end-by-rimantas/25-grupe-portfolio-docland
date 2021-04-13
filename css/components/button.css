@@ -35,4 +35,43 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     justify-content: center;
-  }
+}
+
+.btn-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: var(--color-secondary);
+    right: 0;
+    top: 0;
+}
+
+.btn-left, .btn-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--color-secondary-very-light);
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn-left:hover, .btn-right:hover {
+    background-color: var(--color-secondary);
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.btn-carousel .btn-left{
+    margin-right: 18px;
+}
+
+@media (max-width: 990px) {
+    .btn-carousel {
+        display: none;
+    }
+}
