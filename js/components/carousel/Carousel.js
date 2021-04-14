@@ -20,15 +20,49 @@ class Carousel {
             return 'Provided list has invalid components';
         }
         //render with JS
+        this.render();
     }
+
     isValidSelector () {
-
+        const DOM = document.querySelector(this.selector);
+        //jei DOM neegzistuoja, return false
+        if (!DOM) {
+            return false;
+        }
+        //jei randa DOM, issaugoti jo vieta
+        this.DOM = DOM;
+        return true;
     }
+
     isValidImgPath () {
+        if (typeof this.imgPath !== 'string' || this.imgPath === '') {
+            return false;
+        }
+        return true;
+    }
+
+    isValidList () {
+        if (!Array.isArray(this.list) || this.list.length === 0 ) {
+            return false;
+        }
+        return true;
+    }
+    render () {
+        const HTML = 'BUTTONS + LIST'
+    }
+    renderButtons() {
 
     }
-    isValidList () {
+    renderList () {
+        let HTML = '';
 
+        for (const item of this.list) {
+            HTML += `<div> CAROUSEL ITEM </div>`
+        }
+        return HTML;
+    }
+    isValidListItem(item) {
+        return true;
     }
 }
 
