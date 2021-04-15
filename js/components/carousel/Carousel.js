@@ -48,20 +48,31 @@ class Carousel {
         return true;
     }
     render () {
-        const HTML = 'BUTTONS + LIST'
-    }
-    renderButtons() {
+        const HTML = this.renderList();
 
+        this.DOM.innerHTML = HTML;
     }
+    
     renderList () {
         let HTML = '';
 
         for (const item of this.list) {
-            HTML += `<div> CAROUSEL ITEM </div>`
+            if (this.isValidListItem(item)) {
+                HTML += `<div> CAROUSEL ITEM </div>`;
+            }
         }
         return HTML;
     }
     isValidListItem(item) {
+        if (typeof item !== 'object' || 
+        Array.isArray(item) || !item.img || 
+        !item.title || 
+        typeof item.img !== 'string' || 
+        typeof item.title !== string || 
+        item.img == '' || 
+        item.title == '') {
+            return false;
+        }
         return true;
     }
 }
