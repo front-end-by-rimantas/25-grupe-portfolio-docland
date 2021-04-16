@@ -1,33 +1,21 @@
+.footer-item {
+    margin-top: 50px;
+}
+.footer-item > img {
+    margin-bottom: 25px;
+}
+.footer-item > .first-column{
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--color-grey);
+    width: 100%;
+    margin-bottom: 15px;
+}
 .footer-item > .footer-titles{
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 20px;
-}
-.footer-item > .links > ul{
-    list-style-type: none;
-}
-.footer-item > .links > ul > li > a{
-    text-decoration: none;
-    color: var(--color-grey);
-    font-weight: 300;
-    text-transform: capitalize;
-    padding-bottom: 10px;
-    display:inline-flex;
-}
-.footer-item > .links > ul > li > a:hover {
-    transition: 0.3s linear;
-    color: var(--color-secondary);
-    overflow: visible;
-    
-}
-
-.footer-item > .p-text{
-    line-height: 30px;
-    font-size: 16px;
-    color: var(--color-grey);
-}
-.footer-item > .first-column {
-    margin-bottom: 30px;
 }
 .footer-item > .social-icons > a{
     display: inline-flex;
@@ -44,7 +32,6 @@
     justify-content: center;
     align-items: center;
     overflow: visible;
-
 }
 .footer-item > .social-icons > a:hover{
     color: #fff;
@@ -54,15 +41,33 @@
     
 
 }
-.footer-item > img {
-    margin-bottom: 20px;
+.footer-item > .links > a{
+    width: 95%;
+    text-decoration: none;
+    color: var(--color-grey);
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display:inline-flex;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+.footer-item > .links > a:hover {
+    transition: 0.3s linear;
+    color: var(--color-secondary);
+    overflow: visible;
+    margin-left: 5px;
+    
+}
+.footer-item > .p-text{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--color-grey);
 }
 .footer-item > form > .input-group {
     position: relative;
     width: 100%;
     margin-top: 15px;
-    border: none;
-    
 }
 .footer-item > form > .input-group > input {
     width: 100%;
@@ -70,11 +75,9 @@
     border: none;
     padding-left: 25px;
     font-size: 18px;
-    font-weight: 300;
-    color:white;
+    color:#fff;
     background-color: #5DD9C1;
-    border-radius: 30px;
-    border: none;
+    border-radius: 30px; 
     
 }
 .footer-item > form > .input-group > .button {
