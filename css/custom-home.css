@@ -94,15 +94,14 @@
     background-color: #fff;
     border-radius: 20px;
     margin-bottom: 30px;
-    margin-right: 30px;
     padding: 40px, 0;
 }
 
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
     .syllabus .accordion-tab {
         margin-right: 100px;
     }
-}
+} */
 
 .syllabus .btn, .syllabus .btn:visited {
     color: var(--color-black);
