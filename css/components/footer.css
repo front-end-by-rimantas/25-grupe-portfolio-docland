@@ -80,6 +80,9 @@
     border-radius: 30px; 
     
 }
+::placeholder{
+    color: #fff;
+}
 .footer-item > form > .input-group > .button {
     position: absolute;
     top: 0;
